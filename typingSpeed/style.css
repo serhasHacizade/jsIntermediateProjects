@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #87CEFA;
+}
+
+body, .quoteInput {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background: #F0E68C;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+}
+
+.timer {
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: #F0E68C;
+    font-weight: bold;
+}
+
+#quoteDisplay {
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+}
+
+#quoteInput {
+    background-color: transparent;
+    border:  2px solid #696969;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    resize: none;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+
+#quoteInput:focus {
+    border: 2px solid black;
+}
+
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
