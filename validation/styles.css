@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 430px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.label {
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.input {
+    max-width: 400px;
+    height: 25px;
+    margin-left: 10px;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.submitBtn {
+    width: 65px;
+    padding: 4px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    border: 1px solid #000;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+}
+
+.submitBtn:hover {
+    box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+}
+
+.resetBtn {
+    width: 55px;
+    padding: 4px;
+    margin: 0 20px 0 5px;
+    transition: all 0.3s ease;
+    border: 1px solid #000;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+}
+
+.resetBtn:hover {
+    box-shadow:
+        -7px -7px 20px 0px #fff9,
+        -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001;
+}
+
+.textDanger {
+    color: red;
+    text-align: left;
+    margin: 2px 0 0 10px;
+}
