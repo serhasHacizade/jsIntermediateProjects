@@ -1,0 +1,90 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    letter-spacing: .9px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 2rem 0;
+    width: 75%;
+    min-width: 410px;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+.options {
+    width: 600px;
+    text-align: center;
+    min-width: 410px;
+}
+
+label {
+    display: block;
+}
+
+span {
+    font-size: 22px;
+}
+
+.optWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 70px;
+    height: 40px;
+    border: none;
+
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+input[type="color"]::-moz-color-swatch {
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.gridCol {
+    height: 1em;
+    width: 1em;
+    border: 1px solid #ddd
+}
+
+.gridRow {
+    display: flex;
+}
+
+.container {
+    text-align: center;
+}

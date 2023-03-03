@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="options">
+            <div class="optWrapper">
+                <div class="slider">
+                    <label for="widthRange">Grid width</label>
+                    <input type="range" id="widthRange" min="1" max="40">
+                    <span id="widthValue">00</span>
+                </div>
+                <div class="slider">
+                    <label for="heightRange">Grid height</label>
+                    <input type="range" id="heightRange" min="1" max="40">
+                    <span id="heightValue">00</span>
+                </div>
+            </div>
+            <div class="optWrapper">
+                <button id="submit">Create grid</button>
+                <button id="clear">Clear grid</button>
+                <input type="color" id="colorInput">
+                <button id="erase">Erase</button>
+                <button id="paint">Paint</button>
+            </div>
+        </div>
+        <div class="container"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
