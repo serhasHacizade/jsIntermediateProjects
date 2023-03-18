@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    outline: none;
+}
+body {
+    background-color: #DDA0DD;
+}
+.wrapper {
+    width: 90%;
+    max-width: 25em;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 2em;
+    border-radius: 0.8em;
+}
+.appDetails {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 9em;
+}
+.appTitle {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+label {
+    display: block;
+    font-weight: 600;
+}
+input#amount {
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002C;
+    color: #7A789D;
+    margin-bottom: 2em;
+    padding: 0.5em;
+}
+
+input#amount:focus {
+    color: #9873FE;
+    border-color: #9873FE;
+}
+
+.dropDowns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+select {
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0.2em;
+    appearance: none;   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #9873FE;
+    color: #fff;
+}
+
+select option {
+    background-color: #fff;
+    color: #02002C;
+}
+button {
+    font-size: 1em;
+    width: 100%;
+    background-color: #9873FE;
+    padding: 1em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    font-weight: 600;
+}
+
+#result {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    color: #02002C;
+    background-color: #E5DBFF;
+    padding: 0.8em 0;
+}

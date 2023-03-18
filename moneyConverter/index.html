@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='shortcut icon' href='/moneyConverter/components/favicon.png' type="image/png" />
+    <title>Money converter</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="appDetails">
+            <img src="https://media.istockphoto.com/id/924836924/tr/vekt%C3%B6r/dolar-d%C3%B6viz-simgesi.jpg?s=612x612&w=0&k=20&c=sDNl1k46QZlOA9RCPl_9OiHbGKrOIB4A-aUT4eztUO8=" alt="" class="icon">
+            <h1 class="appTitle">Currency converter</h1>
+        </div>
+        <label for="amount">Amount :</label>
+        <input type="number" id="amount" value="1" min="1" />
+        <div class="dropDowns">
+            <select id="from"></select>
+            <select id="to"></select>
+        </div>
+        <button id="convertBtn">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="./components/currencies.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
