@@ -2,6 +2,7 @@ body {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
+    background-color: #FFDAB9;
 }
 
 .container {
@@ -11,6 +12,7 @@ body {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 15px;
+    background-color: #FFF;
 }
 
 .formGroup {
@@ -52,6 +54,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 7px;
+    background-color: #FFDAB9;
 }
 
 .submitBtn:hover {
@@ -73,6 +76,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 7px;
+    background-color: #FFDAB9;
 }
 
 .resetBtn:hover {
