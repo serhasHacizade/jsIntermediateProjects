@@ -1,0 +1,59 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #dae3ec;
+}
+
+
+h1 {
+    line-height: 1.25;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+#gameArea {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(36, 36, 36);
+}
+
+#gameArea,
+td {
+    border: 1px solid rgb(187, 187, 187);
+    border-collapse: collapse;
+}
+
+.drawPlayer {
+    background-color: #fff !important;
+}
+
+#gameStatus {
+    font-size: 20px;
+}
+
+.drawPoint {
+    background-color: #b02e2e;
+}
+
+.gameScore {
+    font-size: 20px;
+}
